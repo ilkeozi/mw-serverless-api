@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node swagger.js && node app.js",
+    "swagger-autogen": "node swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1076.0",
+    "express": "^4.17.2",
+    "serverless-http": "^2.7.0",
+    "swagger-autogen": "^2.19.0",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
