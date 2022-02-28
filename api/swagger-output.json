@@ -14,12 +14,14 @@
     "/countries/": {
       "get": {
         "description": "",
-        "parameters": [],
-        "responses": {
-          "200": {
-            "description": "OK"
+        "parameters": [
+          {
+            "name": "searchName",
+            "in": "query",
+            "type": "string"
           }
-        }
+        ],
+        "responses": {}
       }
     },
     "/countries/{Alpha2}": {
